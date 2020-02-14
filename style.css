@@ -1,0 +1,39 @@
+body { /* identifação do elemento Body escrito no html */
+    background: linear-gradient(to right, rgb(0, 60, 0), rgb(169,236,163)); /* cada número corresponde a um valor no rgb */
+    color: #fff; /* cor da fonte */
+    font-family: 'montserrat', sans-serif; /* a fonte foi importada no html */
+    height: 100vh; /* vh é a mesma coisa que % */
+}
+
+#quiz { /* identifação do ID quiz (ids são identificados no css utilizando #) */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quiz h1 { /* configuração do título H1 dentro do quiz */
+    font-weight: 600; /* peso da fonte */
+    font-size: 4rem; /* o rem é utilizado ao invés do px para dar responsividade ao site */
+}
+
+.question {
+    background-color: #fff; /* cor do fundo */
+    color: #000; /* cor da fonte */
+    height: 400px; /* altura */
+    width: 70%; /* largura */
+    font-size: 2.5rem;
+}
+
+ul.answers {
+    font-size: 2rem; /* peso do fundo */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answers li {
+    display: flex;
+    background-color: #89c454; /* cor do fundo */
+    margin: 20px; /* margem */
+    width: 40%; /* largura */
+}
