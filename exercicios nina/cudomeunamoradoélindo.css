@@ -1,0 +1,21 @@
+#tabela{
+    text-align: left;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 10px;
+    color:#0D5188;
+    border-collapse: collapse;
+    border-width: 15%;
+}
+#verdinhocuzinho{
+    color: white; 
+    font-weight: bold;
+    background-color: #78b200;
+}
+.gnccinemas{
+    background-color: white;
+}
+
+.cineuniplex{
+    background-color: rgb(231, 231, 231);
+}
