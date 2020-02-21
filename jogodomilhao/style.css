@@ -1,0 +1,80 @@
+body { /* identifação do elemento Body escrito no html */
+    background: linear-gradient(to right, rgb(0, 60, 0), rgb(169,236,163)); /* cada número corresponde a um valor no rgb */
+    color: #fff; /* cor da fonte */
+    font-family: 'montserrat', sans-serif; /* a fonte foi importada no html */
+    height: 100vh; /* vh é a mesma coisa que % */
+}
+
+#quiz { /* identifação do ID quiz (ids são identificados no css utilizando #) */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quiz h1 { /* configuração do título H1 dentro do quiz */
+    font-weight: 600; /* peso da fonte */
+    font-size: 4rem; /* o rem é utilizado ao invés do px para dar responsividade ao site */
+}
+
+.question {
+    background-color: #fff; /* cor do fundo */
+    color: #000; /* cor da fonte */
+    height: 400px; /* altura */
+    width: 70%; /* largura */
+    font-size: 2.5rem;
+}
+
+ul.answers {
+    font-size: 2rem; /* peso do fundo */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answers li {
+    display: flex;
+    background-color: #89c454; /* cor do fundo */
+    margin: 20px; /* margem */
+    width: 40%; /* largura */
+    border-radius: 8px;
+}
+
+.answers .number {
+    background-color: darkgreen;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px;
+    flex-basis: 30px;
+}
+
+.result {
+    background-color: lightgreen;
+    color: darkgreen;
+    font-size: 4rem;
+    font-weight: 600;
+    height: 400px;
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result button {
+    padding: 10px 20px;
+    align-self: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: darkgreen;
+    border-radius: 8px;
+}
+
+.result.wrong {
+    background-color: lightcoral;
+    color: darkred;
+}
+
+.result.wrong button {
+    color: darkred;
+}
